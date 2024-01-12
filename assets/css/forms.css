@@ -1,0 +1,65 @@
+.btn {
+    display: flex;
+    max-width: fit-content;
+    padding: 0.62294rem 1.12125rem;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #1e1e1e;
+    color: white
+}
+
+.btn-secondary {
+    background: var(--Gradient, linear-gradient(122deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%));
+    color: white;
+}
+
+.btn-rounded {
+    border-radius: 725.20725rem;
+    border: 1px solid #fff;
+    background: transparent !important;
+    color: #fff;
+}
+
+form .subscribe-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input{
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Work Sans';
+}
+
+.subscribe-form button{
+    font-family: 'Work Sans';
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px){
+    .btn-secondary {
+       width: 100%;
+       max-width: 100% !important
+    }
+}
